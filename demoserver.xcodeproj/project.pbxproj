@@ -11,6 +11,7 @@
 		2EBF7D0D27B5CE11003E114A /* libFOOServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBF7D0927B5CDC1003E114A /* libFOOServer.a */; };
 		2EBF7D1027B5D511003E114A /* ServerNouns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF7D0F27B5D511003E114A /* ServerNouns.cpp */; };
 		2EBF7D1527B5DD6C003E114A /* CMakeLists.txt in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF7D1427B5DD6C003E114A /* CMakeLists.txt */; };
+		2EBF7D1D27B5ED0D003E114A /* DemoSecretMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF7D1B27B5ED0D003E114A /* DemoSecretMgr.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		2EBF7D0F27B5D511003E114A /* ServerNouns.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ServerNouns.cpp; path = src/ServerNouns.cpp; sourceTree = "<group>"; };
 		2EBF7D1227B5D652003E114A /* ServerNouns.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ServerNouns.hpp; path = src/ServerNouns.hpp; sourceTree = "<group>"; };
 		2EBF7D1427B5DD6C003E114A /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		2EBF7D1B27B5ED0D003E114A /* DemoSecretMgr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DemoSecretMgr.cpp; path = src/DemoSecretMgr.cpp; sourceTree = "<group>"; };
+		2EBF7D1C27B5ED0D003E114A /* DemoSecretMgr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = DemoSecretMgr.hpp; path = src/DemoSecretMgr.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				2EBF7D0E27B5D4FC003E114A /* ServerCmdValidators.hpp */,
 				2EBF7D1227B5D652003E114A /* ServerNouns.hpp */,
 				2EBF7D0F27B5D511003E114A /* ServerNouns.cpp */,
+				2EBF7D1C27B5ED0D003E114A /* DemoSecretMgr.hpp */,
+				2EBF7D1B27B5ED0D003E114A /* DemoSecretMgr.cpp */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 				2EBF7D1527B5DD6C003E114A /* CMakeLists.txt in Sources */,
 				2EBF7D1027B5D511003E114A /* ServerNouns.cpp in Sources */,
 				2EBF7D0127B5CD4B003E114A /* main.cpp in Sources */,
+				2EBF7D1D27B5ED0D003E114A /* DemoSecretMgr.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

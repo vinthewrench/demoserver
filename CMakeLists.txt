@@ -9,6 +9,7 @@ project(demoserver)
 set(SOURCES
 	src/main.cpp
 	src/ServerNouns.cpp
+	src/DemoSecretMgr.cpp
 
 	Submodule/FooServer/src/RESTutils.cpp
 	Submodule/FooServer/src/ServerCmdQueue.cpp
