@@ -1,3 +1,0 @@
-[submodule "Submodule/FooServer"]
-	path = Submodule/FooServer
-	url = https://vinthewrench@github.com/vinthewrench/FooServer.git
